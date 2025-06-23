@@ -26,3 +26,5 @@ Step 3: Generate confusion matrix and other analysis (Analysis folder)
 
 Due to the large size of images and videos and the space limitation in github, we keep 1 generated image and video samples for each problem size for a demonstration on github.
 The summary statistics of total 150 scenarios are saved in the csv files which can be used by the python files in the analysis folder to perform further analyis.
+
+Pls note: DALL-E 3 sometime fails to generate images based on some script, while GPT4o Image generation is more stable.
