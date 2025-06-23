@@ -1,5 +1,5 @@
 required packages:
-Step 0: install the following packages and get APIs
+Step 0: install the following packages and set up API key in .env file
 openai
 google-generativeai
 pandas
