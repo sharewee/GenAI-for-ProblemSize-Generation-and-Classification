@@ -1,4 +1,5 @@
 required packages:
+Step 0: install the following packages and get APIs
 openai
 google-generativeai
 pandas
@@ -11,6 +12,8 @@ required API:
 openai
 google.generativeai
 LemonFox
+
+
 step 1: generate scenarios
 Generate_Scenario_text_image_video: Scenario generation for a given problem size
 Step 2: Redo classification based on AI generated scenarios
@@ -21,4 +24,5 @@ combined_gemini_classify_image_all: perform image classification using gemini
 combined_gemini_classify_video_all: perform video classification using gemini
 Step 3: Generate confusion matrix and other analysis (Analysis folder)
 
-Due to the large size of images and videos and the space limitation in github, we keep 5 generated samples for each problem size for a demonstration on github.
+Due to the large size of images and videos and the space limitation in github, we keep 1 generated image and video samples for each problem size for a demonstration on github.
+The summary statistics of total 150 scenarios are saved in the csv files which can be used by the python files in the analysis folder to perform further analyis.
