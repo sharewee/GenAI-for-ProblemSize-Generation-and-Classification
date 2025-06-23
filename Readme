@@ -1,0 +1,24 @@
+required packages:
+openai
+google-generativeai
+pandas
+requests
+dotenv
+moviepy
+scikit-learn
+
+required API:
+openai
+google.generativeai
+LemonFox
+step 1: generate scenarios
+Generate_Scenario_text_image_video: Scenario generation for a given problem size
+Step 2: Redo classification based on AI generated scenarios
+combined_cgpt_classify_image_all: perform image classifcation using GPT
+combined_cgpt_classify_text_all: perform text classification using GPT
+combined_gemini_classify_text_all: perform text classification using gemini
+combined_gemini_classify_image_all: perform image classification using gemini
+combined_gemini_classify_video_all: perform video classification using gemini
+Step 3: Generate confusion matrix and other analysis (Analysis folder)
+
+Due to the large size of images and videos and the space limitation in github, we keep 5 generated samples for each problem size for a demonstration on github.
